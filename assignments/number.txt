@@ -1,0 +1,9 @@
+(first, second) => {
+  var number = [];
+
+  for (var i = first; i <= second; i++) {
+    number.push(i);
+  }
+
+  return number;
+}
